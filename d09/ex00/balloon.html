@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Balloon</title>
+	<style>
+		div.box
+		{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div onclick="clicked();" onmouseleave="leaved();" class="box" id="box"></div>
+	<script>
+		size = 200;
+		color = "#FF0000";
+		function clicked()
+		{
+			size += 10;
+			if (color == "#FF0000")
+				color = "#00FF00";
+			else if (color == "#00FF00")
+				color = "#0000FF";
+			else
+				color = "#FF0000";
+			document.getElementById("box").style.width = size + "px";
+			document.getElementById("box").style.height = size + "px";
+			document.getElementById("box").style.backgroundColor = color;
+			if (size > 420)
+			{
+				size = 200;
+				document.getElementById("box").style.width = size + "px";
+				document.getElementById("box").style.height = size + "px";
+			}
+		}
+		function leaved()
+		{
+			if (color == "#FF0000")
+				color = "#0000FF";
+			else if (color == "#0000FF")
+				color = "#00FF00";
+			else
+				color = "#FF0000";
+			document.getElementById("box").style.backgroundColor = color;
+			if (size == 200)
+				return ;
+			size -= 5;
+			document.getElementById("box").style.width = size + "px";
+			document.getElementById("box").style.height = size + "px";
+		}
+	</script>
+</body>
+</html>

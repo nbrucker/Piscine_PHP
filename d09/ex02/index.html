@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To do</title>
+	<meta charset="UTF-8">
+	<style>
+		body
+		{
+			background-color: #EEE;
+		}
+		#ft_list
+		{
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.todo
+		{
+			margin-bottom: 20px;
+			text-align: center;
+			border: 2px solid black;
+			padding: 5px;
+			background-color: white;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body onload="loaded();">
+	<input type="submit" onclick="newTodo();" value="New">
+	<div id="ft_list"></div>
+	<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>

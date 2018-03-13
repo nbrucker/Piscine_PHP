@@ -1,0 +1,370 @@
+@font-face 
+{
+	font-family: CaviarDreams;
+	src: url('font/caviardreams.ttf');
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+html
+{
+	font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+body
+{
+	background-color: #EEE;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+form.addBox
+{
+	float: right;
+}
+form.removeBox
+{
+	float: left;
+}
+span.admin_title
+{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+div.box_admin
+{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+span.commandes
+{
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.commandes
+{
+	background-color: white;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	margin-bottom: 50px;
+}
+div.commandes_box
+{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+input.login
+{
+	font-size: 20px;
+	width: 296px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: CaviarDreams;
+}
+input.submit
+{
+	cursor: pointer;
+	font-family: CaviarDreams;
+	font-size: 20px;
+	width: 300px;
+	height: 50px;
+	background-color: #2A7FFF;
+	border: none;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.login_box
+{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 300px;
+}
+div.cart_valid:hover
+{
+	color: grey;
+    border-color: grey;
+}
+div.cart_valid
+{
+	margin-top: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	width: 50%;
+	border: 2px solid black;
+	margin-left: 25%;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+span.cart_item_price
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+span.cart_total
+{
+	display: block;
+	padding-top: 20px;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+div.cart_total
+{
+	margin-top: 50px;
+	width: 50%;
+	height: 100%;
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	background-color: white;
+	margin-left: 25%;
+}
+span.empty_cart
+{
+	display: block;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+span.cart_moins
+{
+	font-size: 25px!important;
+	font-weight: bold!important;
+	color: rgb(255, 100, 100)!important;
+}
+span.cart_plus
+{
+	font-size: 25px!important;
+	font-weight: bold!important;
+	color: rgb(100, 255, 100)!important;
+}
+span.cart_number
+{
+	float: right;
+	margin-right: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+span.cart_item_name
+{
+	float: left;
+	margin-left: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+div.cart_item
+{
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	border-radius: 2px;
+	height: 50px;
+	background: white;
+	margin-bottom: 20px;
+	line-height: 50px;
+}
+div.cart_box
+{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+div.add_box
+{
+	height: 36px;
+	width: calc(100% - 40px;);
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #42A5F5;
+	border-radius: 2px;
+	line-height: 36px;
+	color: white;
+	font-size: 15px;
+}
+span.item_price
+{
+	float: right;
+	margin-right: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+span.item_name
+{
+	float: left;
+	margin-left: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 300;
+	color: #212121;
+}
+div.text_box
+{
+	width: 100%;
+	margin-top: 40px;
+	height: 30px;
+}
+img.items
+{
+	height: 180px;
+}
+div.items
+{
+	float: left;
+	display: inline-block;
+	width: 32%;
+	height: 300px;
+	margin-bottom: 20px;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+	box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.28);
+}
+div.items_box
+{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+}
+span.error_msg
+{
+	font-size: 20px;
+	display: none;
+	color: red;
+	font-family: CaviarDreams;
+	margin-bottom: 10px;
+}
+div.select_box
+{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	height: 40px;
+}
+select.select_type_remove
+{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 2px;
+	width: 300px;
+	height: 100%;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+select.select_type
+{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 2px;
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+div.header
+{
+	width: 100%;
+	background-color: #fff;
+	height: 64px;
+	-webkit-box-shadow: 0px 4px 31px 1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 4px 31px 1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 31px 1px rgba(0, 0, 0, 0.75);
+}
+div.img_box
+{
+	height: 180px;
+	width: 100%;
+}
+span.item_name
+{
+	display: inline-block;
+	float: left;
+}
+span.logbox
+{
+	display: block;
+	color: black;
+	font-weight: bold;
+	padding-top: 16px;
+}
+img.logo
+{
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+	float: left;
+	height: 44px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+ul.right
+{
+	margin: 0;
+	float: right;
+	height: 44px;
+	padding-top: 10px;
+	padding-right: 30px;
+	list-style-type: none;
+}
+ul li
+{
+	cursor: pointer;
+	padding-left: 50px;
+	height: 44px;
+	width: 44px;
+	display: inline-block;
+}
+ul li img
+{
+	height: 44px;
+	width: 44px;
+}
+div.logbox
+{
+	text-align: center;
+	float: right;
+	width: 250px;
+	height: 50px;
+	border: 2px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	background-color: #EEE;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calc</title>
+</head>
+<body>
+	<input type="text" id="left">
+	<select id="op">
+		<option>+</option>
+		<option>-</option>
+		<option>*</option>
+		<option>/</option>
+		<option>%</option>
+	</select>
+	<input type="text" id="right">
+	<input onclick="clicked();" type="submit" value="Try me!">
+	<script>
+		setInterval(disp, 30000);
+		function disp()
+		{
+			alert("Please, use me...");
+		}
+		function clicked()
+		{
+			var left = document.getElementById("left").value;
+			var right = document.getElementById("right").value;
+			var el = document.getElementById("op");
+			var op = el.options[el.selectedIndex].value;
+			if (left === "" || right === "" || isNaN(left) || isNaN(right))
+			{
+				alert("Error :(");
+				return ;
+			}
+			if (left != parseInt(left, 10) || right != parseInt(right, 10))
+			{
+				alert("Error :(");
+				return ;
+			}
+			left = parseInt(left);
+			right = parseInt(right);
+			if (left < 0 || right < 0)
+			{
+				alert("Error :(");
+				return ;
+			}
+			if ((op === "/" || op === "%") && right === 0)
+			{
+				console.log("It’s over 9000!");
+				alert("It’s over 9000!");
+				return ;
+			}
+			var res = 0;
+			if (op === "+")
+				res = left + right;
+			else if (op === "-")
+				res = left - right;
+			else if (op === "*")
+				res = left * right;
+			else if (op === "/")
+				res = left / right;
+			else if (op === "%")
+				res = left % right;
+			console.log(res);
+			alert(res);
+		}
+	</script>
+</body>
+</html>
