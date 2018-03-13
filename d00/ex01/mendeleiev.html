@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mendeleïev</title>
+	<style>
+		body
+		{
+			background-color: white;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		table
+		{
+			margin-top: 50px;
+		}
+		tr
+		{
+			height: 80px;
+			min-height: 80px;
+		}
+		td
+		{
+			text-align: center;
+			position: relative;
+			width: 80px;
+			min-width: 80px;
+			height: 80px;
+			min-height: 80px;
+		}
+		span.number
+		{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		span.poids
+		{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		span.name
+		{
+			font-size: 40px;
+		}
+		#c1 { background-color: #ffc591 }
+		#c2 { background-color: #ffdf91 }
+		#c3 { background-color: #fff991 }
+		#c4 { background-color: #ecff91 }
+		#c5 { background-color: #d2ff91 }
+		#c6 { background-color: #b8ff91 }
+		#c7 { background-color: #91ff9e }
+		#c8 { background-color: #ab91ff }
+		#c9 { background-color: #f991ff }
+		#c10 { background-color: #91dfff }
+		#c11 { background-color: #c8c8c8 }
+	</style>
+</head>
+<body>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments_pr%C3%A9cis.svg/370px-Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments_pr%C3%A9cis.svg.png" alt="">
+	<table contenteditable="true">
+		<tr>
+			<td id="c8"><span class="number">1</span><span class="name">H</span><span class="poids">1.008</span></td>
+			<td colspan="16"></td>
+			<td id="c10"><span class="number">2</span><span class="name">He</span><span class="poids">4.0026</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">3</span><span class="name">Li</span><span class="poids">6.94</span></td>
+			<td id="c2"><span class="number">4</span><span class="name">Be</span><span class="poids">9.0122</span></td>
+			<td colspan="10"></td>
+			<td id="c7"><span class="number">5</span><span class="name">B</span><span class="poids">10.81</span></td>
+			<td id="c8"><span class="number">6</span><span class="name">C</span><span class="poids">12.011</span></td>
+			<td id="c8"><span class="number">7</span><span class="name">N</span><span class="poids">14.007</span></td>
+			<td id="c8"><span class="number">8</span><span class="name">O</span><span class="poids">15.999</span></td>
+			<td id="c9"><span class="number">9</span><span class="name">F</span><span class="poids">18.998</span></td>
+			<td id="c10"><span class="number">10</span><span class="name">Ne</span><span class="poids">20.180</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">11</span><span class="name">Na</span><span class="poids">22.990</span></td>
+			<td id="c2"><span class="number">12</span><span class="name">Mg</span><span class="poids">24.305</span></td>
+			<td colspan="10"></td>
+			<td id="c3"><span class="number">13</span><span class="name">Al</span><span class="poids">26.982</span></td>
+			<td id="c7"><span class="number">14</span><span class="name">Si</span><span class="poids">28.085</span></td>
+			<td id="c8"><span class="number">15</span><span class="name">P</span><span class="poids">30.974</span></td>
+			<td id="c8"><span class="number">16</span><span class="name">S</span><span class="poids">32.06</span></td>
+			<td id="c9"><span class="number">17</span><span class="name">Cl</span><span class="poids">35.45</span></td>
+			<td id="c10"><span class="number">18</span><span class="name">Ar</span><span class="poids">39.948</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">19</span><span class="name">K</span><span class="poids">39.098</span></td>
+			<td id="c2"><span class="number">20</span><span class="name">Ca</span><span class="poids">40.078</span></td>
+			<td id="c4"><span class="number">21</span><span class="name">Sc</span><span class="poids">44.956</span></td>
+			<td id="c4"><span class="number">22</span><span class="name">Ti</span><span class="poids">47.867</span></td>
+			<td id="c4"><span class="number">23</span><span class="name">V</span><span class="poids">50.942</span></td>
+			<td id="c4"><span class="number">24</span><span class="name">Cr</span><span class="poids">51.996</span></td>
+			<td id="c4"><span class="number">25</span><span class="name">Mn</span><span class="poids">54.938</span></td>
+			<td id="c4"><span class="number">26</span><span class="name">Fe</span><span class="poids">55.845</span></td>
+			<td id="c4"><span class="number">27</span><span class="name">Co</span><span class="poids">58.933</span></td>
+			<td id="c4"><span class="number">28</span><span class="name">Ni</span><span class="poids">58.693</span></td>
+			<td id="c4"><span class="number">29</span><span class="name">Cu</span><span class="poids">63.546</span></td>
+			<td id="c4"><span class="number">30</span><span class="name">Zn</span><span class="poids">65.38</span></td>
+			<td id="c3"><span class="number">31</span><span class="name">Ga</span><span class="poids">69.723</span></td>
+			<td id="c7"><span class="number">32</span><span class="name">Ge</span><span class="poids">72.630</span></td>
+			<td id="c7"><span class="number">33</span><span class="name">As</span><span class="poids">74.922</span></td>
+			<td id="c8"><span class="number">34</span><span class="name">Se</span><span class="poids">78.971</span></td>
+			<td id="c9"><span class="number">35</span><span class="name">Br</span><span class="poids">79.904</span></td>
+			<td id="c10"><span class="number">36</span><span class="name">Kr</span><span class="poids">83.798</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">37</span><span class="name">Rb</span><span class="poids">85.468</span></td>
+			<td id="c2"><span class="number">38</span><span class="name">Sr</span><span class="poids">87.62</span></td>
+			<td id="c4"><span class="number">39</span><span class="name">Y</span><span class="poids">88.906</span></td>
+			<td id="c4"><span class="number">40</span><span class="name">Zr</span><span class="poids">91.224</span></td>
+			<td id="c4"><span class="number">41</span><span class="name">Nb</span><span class="poids">92.906</span></td>
+			<td id="c4"><span class="number">42</span><span class="name">Mo</span><span class="poids">95.95</span></td>
+			<td id="c4"><span class="number">43</span><span class="name">Tc</span><span class="poids">98</span></td>
+			<td id="c4"><span class="number">44</span><span class="name">Ru</span><span class="poids">101.07</span></td>
+			<td id="c4"><span class="number">45</span><span class="name">Rh</span><span class="poids">102.91</span></td>
+			<td id="c4"><span class="number">46</span><span class="name">Pd</span><span class="poids">106.42</span></td>
+			<td id="c4"><span class="number">47</span><span class="name">Ag</span><span class="poids">107.87</span></td>
+			<td id="c4"><span class="number">48</span><span class="name">Cd</span><span class="poids">112.41</span></td>
+			<td id="c3"><span class="number">49</span><span class="name">In</span><span class="poids">114.82</span></td>
+			<td id="c3"><span class="number">50</span><span class="name">Sn</span><span class="poids">118.71</span></td>
+			<td id="c7"><span class="number">51</span><span class="name">Sb</span><span class="poids">121.76</span></td>
+			<td id="c7"><span class="number">52</span><span class="name">Te</span><span class="poids">127.60</span></td>
+			<td id="c9"><span class="number">53</span><span class="name">I</span><span class="poids">126.90</span></td>
+			<td id="c10"><span class="number">54</span><span class="name">Xe</span><span class="poids">131.29</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">55</span><span class="name">Cs</span><span class="poids">132.91</span></td>
+			<td id="c2"><span class="number">56</span><span class="name">Ba</span><span class="poids">137.33</span></td>
+			<td id="c4"><span class="number">71</span><span class="name">Lu</span><span class="poids">174.97</span></td>
+			<td id="c4"><span class="number">72</span><span class="name">Hf</span><span class="poids">178.49</span></td>
+			<td id="c4"><span class="number">73</span><span class="name">Ta</span><span class="poids">180.95</span></td>
+			<td id="c4"><span class="number">74</span><span class="name">W</span><span class="poids">183.84</span></td>
+			<td id="c4"><span class="number">75</span><span class="name">Re</span><span class="poids">186.21</span></td>
+			<td id="c4"><span class="number">76</span><span class="name">Os</span><span class="poids">190.23</span></td>
+			<td id="c4"><span class="number">77</span><span class="name">Ir</span><span class="poids">192.22</span></td>
+			<td id="c4"><span class="number">78</span><span class="name">Pt</span><span class="poids">195.80</span></td>
+			<td id="c4"><span class="number">79</span><span class="name">Au</span><span class="poids">196.97</span></td>
+			<td id="c4"><span class="number">80</span><span class="name">Hg</span><span class="poids">200.59</span></td>
+			<td id="c3"><span class="number">81</span><span class="name">Tl</span><span class="poids">204.38</span></td>
+			<td id="c3"><span class="number">82</span><span class="name">Pb</span><span class="poids">207.2</span></td>
+			<td id="c3"><span class="number">83</span><span class="name">Bi</span><span class="poids">208.98</span></td>
+			<td id="c7"><span class="number">84</span><span class="name">Po</span><span class="poids">209</span></td>
+			<td id="c9"><span class="number">85</span><span class="name">At</span><span class="poids">210</span></td>
+			<td id="c10"><span class="number">86</span><span class="name">Rn</span><span class="poids">222</span></td>
+		</tr>
+		<tr>
+			<td id="c1"><span class="number">87</span><span class="name">Fr</span><span class="poids">223</span></td>
+			<td id="c2"><span class="number">88</span><span class="name">Ra</span><span class="poids">226</span></td>
+			<td id="c4"><span class="number">103</span><span class="name">Lr</span><span class="poids">262</span></td>
+			<td id="c4"><span class="number">104</span><span class="name">Rf</span><span class="poids">261</span></td>
+			<td id="c4"><span class="number">105</span><span class="name">Db</span><span class="poids">262</span></td>
+			<td id="c4"><span class="number">106</span><span class="name">Sg</span><span class="poids">266</span></td>
+			<td id="c4"><span class="number">107</span><span class="name">Bh</span><span class="poids">264</span></td>
+			<td id="c4"><span class="number">108</span><span class="name">Hs</span><span class="poids">277</span></td>
+			<td id="c4"><span class="number">109</span><span class="name">Mt</span><span class="poids">268</span></td>
+			<td id="c4"><span class="number">110</span><span class="name">Ds</span><span class="poids">271</span></td>
+			<td id="c4"><span class="number">111</span><span class="name">Rg</span><span class="poids">272</span></td>
+			<td id="c4"><span class="number">112</span><span class="name">Cn</span><span class="poids">285</span></td>
+			<td id="c11"><span class="number">113</span><span class="name">Nh</span><span class="poids">284</span></td>
+			<td id="c11"><span class="number">114</span><span class="name">Fl</span><span class="poids">289</span></td>
+			<td id="c11"><span class="number">115</span><span class="name">Mc</span><span class="poids">288</span></td>
+			<td id="c11"><span class="number">116</span><span class="name">Lv</span><span class="poids">292</span></td>
+			<td id="c11"><span class="number">117</span><span class="name">Ts</span><span class="poids">294</span></td>
+			<td id="c11"><span class="number">118</span><span class="name">Og</span><span class="poids">294</span></td>
+		</tr>
+		<tr rowspan="1">
+		</tr>
+		<tr>
+			<td colspan="4"></td>
+			<td id="c5"><span class="number">57</span><span class="name">La</span><span class="poids">138.91</span></td>
+			<td id="c5"><span class="number">58</span><span class="name">Ce</span><span class="poids">140.12</span></td>
+			<td id="c5"><span class="number">59</span><span class="name">Pr</span><span class="poids">140.91</span></td>
+			<td id="c5"><span class="number">60</span><span class="name">Nd</span><span class="poids">144.24</span></td>
+			<td id="c5"><span class="number">61</span><span class="name">Pm</span><span class="poids">145</span></td>
+			<td id="c5"><span class="number">62</span><span class="name">Sm</span><span class="poids">150.36</span></td>
+			<td id="c5"><span class="number">63</span><span class="name">Eu</span><span class="poids">151.96</span></td>
+			<td id="c5"><span class="number">64</span><span class="name">Gd</span><span class="poids">157.25</span></td>
+			<td id="c5"><span class="number">65</span><span class="name">Tb</span><span class="poids">158.93</span></td>
+			<td id="c5"><span class="number">66</span><span class="name">Dy</span><span class="poids">162.50</span></td>
+			<td id="c5"><span class="number">67</span><span class="name">Ho</span><span class="poids">164.93</span></td>
+			<td id="c5"><span class="number">68</span><span class="name">Er</span><span class="poids">167.26</span></td>
+			<td id="c5"><span class="number">69</span><span class="name">Tm</span><span class="poids">168.93</span></td>
+			<td id="c5"><span class="number">70</span><span class="name">Yb</span><span class="poids">173.05</span></td>
+		</tr>
+		<tr>
+			<td colspan="4"></td>
+			<td id="c6"><span class="number">89</span><span class="name">Ac</span><span class="poids">227</span></td>
+			<td id="c6"><span class="number">90</span><span class="name">Th</span><span class="poids">232.04</span></td>
+			<td id="c6"><span class="number">91</span><span class="name">Pa</span><span class="poids">231.04</span></td>
+			<td id="c6"><span class="number">92</span><span class="name">U</span><span class="poids">238.03</span></td>
+			<td id="c6"><span class="number">93</span><span class="name">Np</span><span class="poids">237</span></td>
+			<td id="c6"><span class="number">94</span><span class="name">Pu</span><span class="poids">244</span></td>
+			<td id="c6"><span class="number">95</span><span class="name">Am</span><span class="poids">243</span></td>
+			<td id="c6"><span class="number">96</span><span class="name">Cm</span><span class="poids">247</span></td>
+			<td id="c6"><span class="number">97</span><span class="name">Bk</span><span class="poids">247</span></td>
+			<td id="c6"><span class="number">98</span><span class="name">Cf</span><span class="poids">251</span></td>
+			<td id="c6"><span class="number">99</span><span class="name">Es</span><span class="poids">252</span></td>
+			<td id="c6"><span class="number">100</span><span class="name">Fm</span><span class="poids">257</span></td>
+			<td id="c6"><span class="number">101</span><span class="name">Md</span><span class="poids">258</span></td>
+			<td id="c6"><span class="number">102</span><span class="name">No</span><span class="poids">259</span></td>
+		</tr>
+	</table>
+</body>
+</html>

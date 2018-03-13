@@ -1,0 +1,55 @@
+body
+{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+table
+{
+	width: 100%;
+	height: 100vh;
+	min-height: 800px;
+}
+tr
+{
+	height: 5.55vh;
+	min-height: 80px;
+}
+td
+{
+	text-align: center;
+	position: relative;
+	width: 5.55vw;
+	height: 5.55vh;
+	min-height: 80px;
+}
+span.number
+{
+	font-size: 1vw;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+span.poids
+{
+	font-size: 1vw;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+span.name
+{
+	font-size: 2vw;
+}
+#c1 { background-color: #ffc591 }
+#c2 { background-color: #ffdf91 }
+#c3 { background-color: #fff991 }
+#c4 { background-color: #ecff91 }
+#c5 { background-color: #d2ff91 }
+#c6 { background-color: #b8ff91 }
+#c7 { background-color: #91ff9e }
+#c8 { background-color: #ab91ff }
+#c9 { background-color: #f991ff }
+#c10 { background-color: #91dfff }
+#c11 { background-color: #c8c8c8 }

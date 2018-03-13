@@ -1,0 +1,219 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #505050;
+	text-align: center;
+}
+.box
+{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 18px;
+	width: 1466px;
+	height: 834px;
+	text-align: center;
+}
+.grey
+{
+	border-radius: 10px;
+	background-color: #909090;
+	box-shadow: 10px 10px 10px #000000;
+}
+.header
+{
+	position: relative;
+	float: right;
+	width: 1420px;
+	height: 137px;
+	margin-bottom: 20px;
+}
+.logo
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 110px;
+	position: absolute;
+	left: 0;
+}
+.loupe
+{
+	margin-right: 30px;
+	margin-top: 10px;
+	position: absolute;
+	right: 0;
+}
+.reload
+{
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px;
+}
+.close
+{
+	height: 20px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+}
+div.action
+{
+	position: relative;
+	float: left;
+	top: 0;
+	margin-left: 75px;
+	width: 140px;
+	height: 425px;
+}
+.select
+{
+	border-radius: 5px;
+	border: 5px solid red;
+	margin: -5px !important;
+	margin-top: 5px !important;
+}
+img.action
+{
+	width: 70px;
+	margin-top: 10px;
+}
+div.cluster
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 0;
+	width: 1020px;
+	height: 580px;
+	margin-left: 30px;
+}
+img.cluster
+{
+	margin: 10px;
+	width: 1000px;
+	height: 560px;
+}
+.obj
+{
+	position: relative;
+	float: left;
+	top: 0;
+	margin-left: 30px;
+	width: 140px;
+	height: 425px;
+}
+img.book
+{
+	width: 70px;
+	margin-top: 10px;
+}
+.wall
+{
+	background-image: url('resources/brick.jpg');
+	width: 120px;
+	margin: 10px;
+	height: 70px;
+}
+.green
+{
+	text-align: left;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #000000;
+	background-color: #88ff89;
+	position: absolute;
+	width: 520px;
+	height: 170px;
+	float: left;
+	bottom: 0;
+}
+span.text
+{
+	display: block;
+	margin-left: 10px;
+	font-family: arial;
+    font-size: 16px;
+    font-stretch: expanded !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+span.big
+{
+	font-family: Times;
+	font-size: 31px;
+}
+span.shadow
+{
+	text-shadow: 5px 5px 5px #ff0000;
+}
+span.ita
+{
+	font-style: italic;
+}
+form
+{
+	margin-top: 5px;
+	margin-left: 12px;
+}
+form input[type="text"]
+{
+	width: 376px;
+	border: 2px solid #9d969d;
+	border-bottom-color: #eeeeee;
+	border-right-color: #eeeeee;
+	height: 16px;
+}
+form input[type="submit"]
+{
+	position: absolute;
+	margin-top: -0px;
+	border: 1px solid #a8a4a5;
+	border-radius: 1px;
+	background-color: #f4eff3;
+	margin-left: 4px;
+	height: 22px;
+	font-size:12px;
+	letter-spacing: 1px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
+}
+div.chair
+{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 150px;
+	height: 230px;
+	margin-left: 330px;
+	margin-top: 330px;
+}
+div.mac
+{
+	bottom: 0;
+	right: 0;
+	margin-right: 30px;
+	margin-bottom: 100px;
+	position: absolute;
+	width: 200px;
+	height: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

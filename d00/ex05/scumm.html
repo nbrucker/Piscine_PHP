@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SCUMM</title>
+	<link rel="stylesheet" type="text/css" href="scumm.css">
+	<script type="text/javascript" src="scumm.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="header grey">
+			<img class="logo" src="resources/day_of_the_42.png" alt="logo" title="logo">
+			<img class="loupe" src="resources/loupe.png" alt="loupe" title="loupe">
+			<a href="http://www.disney.com/"><img class="reload" src="resources/reload.png" alt="reload" title="Recommencer au début"></a>
+			<a href="http://www.relaischateaux.com/"><img class="close" src="resources/close.gif" alt="close" title="Déconnecter"></a>
+		</div>
+		<div class="action grey">
+			<img id="arrow" class="action" src="resources/arrow.png" alt="Avancer" title="Avancer">
+			<img id="main" class="action" src="resources/main.png" alt="Prendre" title="Prendre">
+			<img id="oeil" class="action select" src="resources/oeil.png" alt="Regarder" title="Regarder">
+			<img id="outil" class="action" src="resources/outil.png" alt="Utiliser" title="Utiliser">
+			<img id="chat" class="action" src="resources/chat-icon.png" alt="Parler" title="Parler">
+		</div>
+		<div class="cluster grey">
+			<img class="cluster" src="resources/cluster.jpg" alt="cluster" title="cluster">
+			<div id="chair" class="chair" title="chair"></div>
+			<div id="mac" class="mac" title="mac"></div>
+		</div>
+		<div class="obj grey">
+			<img class="book" src="resources/book.png" alt="book" title="book">
+			<img class="book" src="resources/towel.png" alt="towel" title="towel">
+			<div class="wall" title="wall">
+			</div>
+		</div>
+		<div class="green">
+			<span class="text">
+			Vous <span class="big">entrez</span> alors dans une grande piece remplie d'<span class="shadow">ordinateurs...</span>
+			<br>
+			<span id="question" class="ita">- Bonjour, vous êtes nouveau ici ?</span>
+			</span>
+			<form action="#" id="my_form">
+				<input autocomplete="off" id="answer" type="text" name="text" value="">
+				<input type="submit" value="Repondre">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
